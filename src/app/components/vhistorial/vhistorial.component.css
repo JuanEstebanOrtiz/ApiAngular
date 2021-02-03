@@ -1,0 +1,23 @@
+#form-tabla{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 30%;
+}
+
+#form-tabla td, #form-tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+#form-tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#form-tabla tr:hover {background-color: #ddd;}
+
+#form-tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
